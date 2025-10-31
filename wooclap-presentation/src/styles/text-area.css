@@ -1,0 +1,12 @@
+.text-area {
+  width: 60%;
+  height: 150px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #f7f3f3;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
