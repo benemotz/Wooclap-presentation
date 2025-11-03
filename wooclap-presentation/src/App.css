@@ -1,18 +1,17 @@
 .App {
   display: flex;
-  flex-direction: column;/* Align children to the left */
-  height: 100vh; /* Full viewport height */
-  background-color: #f9f9f9; /* Optional */
+  flex-direction: column;
+  height: 100%;
+  background-color: #f9f9f9;
   box-sizing: border-box;
   justify-content: center;
-  gap:24px
+  gap: 24px;
 }
 
 .overall-content-wrapper {
   display: flex;
   flex-direction: row;
-  flex: 1; /* Take remaining space above footer */
-  gap: 16px;
+  flex: 1;
 }
 
 .display-content-wrapper {

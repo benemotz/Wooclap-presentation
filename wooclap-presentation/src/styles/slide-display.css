@@ -3,15 +3,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 16px;
-  box-sizing: border-box;
-  min-height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .slide-container,
 .slide-navigation {
-  width: 80%;
-  padding: 16px;
+  width: 60%;
+  padding: 8px;
 }
 
 .slide-container {
@@ -22,11 +21,11 @@
   border: 1px solid #ddd;
   background: #fff;
   margin-bottom: 16px;
+  width: 80%;
 }
 
 .slide-image {
   max-width: 100%;
-  max-height: 70vh;
   object-fit: contain;
 }
 

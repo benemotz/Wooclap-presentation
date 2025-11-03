@@ -1,5 +1,5 @@
 .slide-bar {
-  width: 280px; /* Slightly wider for better spacing */
+  width: 20%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -16,13 +16,12 @@
   padding: 12px;
   box-sizing: border-box;
   background-color: #fefefe;
-  display: flex; /* Push number to left, image to right */
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 16px;
 
-  /* scrollable */
-  max-height: 100vh; /* Adjust based on header/footer */
+  max-height: 100vh;
   overflow-y: auto;
 }
 
@@ -39,8 +38,8 @@
 }
 
 .slide-wrapper.active {
-  background-color: #e6f0ff; /* Light blue background */
-  border: 2px solid #146aff; /* Wooclap blue */
+  background-color: #e6f0ff;
+  border: 2px solid #146aff;
 }
 
 .slide-number {

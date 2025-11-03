@@ -1,5 +1,5 @@
 
-# RPSLS - Rock Paper Scissors Lizard Spock
+# Wooclap App
 
 ## Author
 **Motz, Bénédicte**
