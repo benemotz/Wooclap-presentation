@@ -1,0 +1,59 @@
+.slide-bar {
+  width: 280px; /* Slightly wider for better spacing */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow-y: auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.slide-bar-form {
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #fefefe;
+  display: flex; /* Push number to left, image to right */
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+
+  /* scrollable */
+  max-height: 100vh; /* Adjust based on header/footer */
+  overflow-y: auto;
+}
+
+.slide-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.slide-wrapper.active {
+  background-color: #e6f0ff; /* Light blue background */
+  border: 2px solid #146aff; /* Wooclap blue */
+}
+
+.slide-number {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 80px;
+}
+
+.slide {
+  width: 70%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}

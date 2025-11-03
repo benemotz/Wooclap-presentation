@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/slide-display.css';
 /**
  * SlideDisplay Component
@@ -22,7 +21,7 @@ import '../styles/slide-display.css';
  * @param {number} options.totalSlides - Total number of slides
  * @param {Function} options.setCurrentSlideIndex - Function to update the current slide index
  *
- * @returns {JSX.Element} The rendered SlideDisplay component
+ * @returns {ReactNode} The rendered SlideDisplay component
  */
 
 export default function SlideDisplay({
@@ -54,23 +53,23 @@ export default function SlideDisplay({
       </div>
       <div className="slide-navigation">
         <div className="nav-buttons">
-        <button
-          onClick={showPrevious}
-          className="nav-button"
-          disabled={currentSlideIndex === 0}
-        >
-          &lt;
-        </button>
-        <span>
-          {currentSlideIndex + 1}/{totalSlides}
-        </span>
-        <button
-          onClick={showNext}
-          className="nav-button"
-          disabled={currentSlideIndex === totalSlides - 1}
-        >
-          &gt;
-        </button>
+          <button
+            onClick={showPrevious}
+            className="nav-button"
+            disabled={currentSlideIndex === 0}
+          >
+            &lt;
+          </button>
+          <span>
+            {currentSlideIndex + 1}/{totalSlides}
+          </span>
+          <button
+            onClick={showNext}
+            className="nav-button"
+            disabled={currentSlideIndex === totalSlides - 1}
+          >
+            &gt;
+          </button>
         </div>
         <button className="help-button">?</button>
       </div>

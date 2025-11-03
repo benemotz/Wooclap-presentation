@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/footer.css';
 
 /**
@@ -6,9 +5,10 @@ import '../styles/footer.css';
  */
 
 export default function Footer() {
-    return (
-        <footer>
-            <button className="discard-footer">Discard</button>
-        </footer>
-    );
+  return (
+    <footer>
+      <button className="discard-footer">Discard</button>
+      <button className="save-footer">Save</button>
+    </footer>
+  );
 }
